@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\module",
+    "\\src\\app\\module\\car.module",
+    "\\src\\app\\module\\car.module\\car",
+    "\\src\\app\\module\\car.module\\services",
+    "\\src\\app\\module\\car.module\\services\\car",
+    "\\src\\app\\module\\car.module\\services\\car\\car",
+    "\\src\\app\\module\\car.module\\services\\car\\car.collection",
+    "\\src\\app\\module\\car.module\\templates",
+    "\\src\\app\\module\\car.module\\templates\\car.collection"
+  ],
+  "SelectedNode": "\\src\\app\\app.component.css",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "garage-app", "garage-app.vbproj", "{A8FF7823-F912-4FA6-B5E2-CD8432B62C71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FF7823-F912-4FA6-B5E2-CD8432B62C71}.Debug|x86.ActiveCfg = Debug|x86
+		{A8FF7823-F912-4FA6-B5E2-CD8432B62C71}.Debug|x86.Build.0 = Debug|x86
+		{A8FF7823-F912-4FA6-B5E2-CD8432B62C71}.Release|x86.ActiveCfg = Release|x86
+		{A8FF7823-F912-4FA6-B5E2-CD8432B62C71}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FC70E6-F2BC-45E7-A1BE-14DF96098571}
+	EndGlobalSection
+EndGlobal
