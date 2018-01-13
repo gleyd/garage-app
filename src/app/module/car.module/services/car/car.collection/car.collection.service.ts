@@ -9,13 +9,13 @@ import { Car } from '../../../model/car';
 @Injectable()
 export class CarCollectionService {
   public carCollection: Array<Car>;
-  
+  public carByUserIdCollection: Array<Car>; 
 
   constructor() {
    
     this.carCollection = [];
     this.getCarCollection();
-    
+    this.carByUserIdCollection = [];
   }
 
   /**
@@ -32,6 +32,17 @@ export class CarCollectionService {
 
     
   }
+
+  getCarCollectionByUserId(UserID) {
+
+    for (let car of this.carCollection) {
+      if (car.user_id == UserID)
+
+        this.carByUserIdCollection.push(car);
+    }
+    return this.carByUserIdCollection;
+  }
+
 
   /**
    * 

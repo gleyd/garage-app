@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { UserModule } from './module/user.module/user.module';
 import { routing } from './app.routing';
 import { CarModule } from './module/car.module/car.module';
+import { UsercarComponent } from './usercar/usercar.component';
 
 
 
@@ -13,7 +14,7 @@ import { CarModule } from './module/car.module/car.module';
 @NgModule({
   declarations: [
     AppComponent,
-
+    UsercarComponent,
     
   ],
   imports: [
@@ -22,6 +23,7 @@ import { CarModule } from './module/car.module/car.module';
     UserModule,
     CarModule,
     routing,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
