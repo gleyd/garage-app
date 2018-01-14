@@ -11,18 +11,20 @@ import { CarCollectionService } from '../module/car.module/services/car/car.coll
 })
 export class UsercarComponent implements OnInit {
 
-  @Input() user: User;
+  user: User;
   userCollection: Array<User>;
 
-  @Input() car: Car;
+  car: Car;
   carCollection: Array<Car>;
 
   constructor(UserCollectionService: UserCollectionService, CarCollectionService: CarCollectionService) {
 
     this.userCollection = UserCollectionService.getUserCollection();
     this.carCollection = CarCollectionService.getCarCollectionByUserId(1);
-    
+    console.log(this.carCollection);
   }
+
+
   ngOnInit() {
   }
 

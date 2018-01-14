@@ -5,12 +5,13 @@
       <span class="text-left">{{ user.lastName }} {{ user.firstName }}</span>
     </div>
     <div class="panel-body">
-      <p>Téléphone : {{ user.phone}}</p>
+      <p>Téléphone : {{ user.phone }}</p>
       <p>email : {{ user.email }}</p>
+      <carsofuser [user]="user"></carsofuser>
     </div>
   </div>
 </div>
 
 
 
-<!--<car [car]="car" (onGetCars)="onGetCarsUser($event)"></car>-->
+<!--<carsofuser [userID]="user.user_id" (onGetCars)="onGetCarsUser($event)"></carsofuser>-->
